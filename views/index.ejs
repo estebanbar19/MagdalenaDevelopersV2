@@ -1,0 +1,28 @@
+<%- include("templates/cabecera", {tituloWeb : "MagdalenaDevelopers", estilo : "../styles/styleMain.css"}) %>
+<body> 
+  <header>
+   <h1 id="magdevicon"><%= titulo %></h1> 
+    <nav>
+        <ul class="links_nav">
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">¿Cómo empezar?</a>
+            </li>
+            <li>
+                <a href="#">Contáctanos</a>
+            </li>
+        </ul>       
+    </nav>
+    <a id="btnIniciarSesion"><button>Iniciar Sesión</button></a> 
+  </header>
+  <main>
+    <div class="contenedor_button">
+    <button class="main_button">Buscar Empleo</button>
+    </div>
+  </main>
+  <%- include("templates/footer") %>
+</body>
+<script src="../js/index.js"></script>
+</html>
